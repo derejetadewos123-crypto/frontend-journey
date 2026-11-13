@@ -18,3 +18,16 @@ img {
 li {
     margin-bottom: 8px;
 }
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+nav a:hover {
+    color: darkred;
+}
